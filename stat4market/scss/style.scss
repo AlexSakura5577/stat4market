@@ -1,0 +1,12 @@
+@import "./fonts";
+// @import "./reset";
+@import "./normalize";
+@import "./variables";
+@import "./extends";
+@import "./mixins";
+@import "./components";
+
+h2 {
+    color: aqua;
+    font-size: 30px;
+}
