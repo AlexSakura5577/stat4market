@@ -7,5 +7,65 @@
 @import "./components";
 
 h1 {
-    @extend %ex1-H1_Lato_Bold_56-80;
+    // @extend %ex1-H1_Lato_Bold_56-80;
 }
+
+
+
+.wrapper {
+    @extend %wrapper-1920;
+}
+
+.content {
+    @extend %content-wrapper-1920;
+}
+
+.header {
+    @extend %header-wrapper-1920;
+}
+
+.courses {
+    @extend %courses-wrapper-1920;
+}
+
+.title {
+    @extend %title-wrapper-1920;
+}
+
+.superman {
+    @extend %superman-wrapper-1920;
+}
+
+.course-author {
+    @extend %course-author-wrapper-1920;
+}
+
+.description {
+    @extend %description-wrapper-1920;
+}
+
+.block-one {
+    @extend %block-one-wrapper-1920;
+}
+
+.block-two {
+    @extend %block-two-wrapper-1920;
+}
+
+.training {
+    @extend %training-wrapper-1920;
+}
+
+// heading
+
+// text
+
+.cards {
+    @extend %cards-wrapper-1920;
+}
+
+// card-1
+// card-2
+// card-3
+// card-4
+

@@ -1,0 +1,353 @@
+// block-size
+%block {
+    display: block;
+    margin: 0 auto;
+}
+
+%flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+%wrapper-1920 {
+    @extend %block;
+    width: 1920px;
+    height: 3083px;
+    background-color: $color-wrapper-block;
+}
+
+%wrapper-1280 {
+    @extend %block;
+    width: 1280px;
+    height: 2658px;
+    background-color: $color-wrapper-block;
+}
+
+%wrapper-768 {
+    @extend %block;
+    width: 768px;
+    height: 2909px;
+    background-color: $color-wrapper-block;
+}
+
+%wrapper-360 {
+    @extend %block;
+    width: 360px;
+    height: 4079px;
+    background-color: $color-wrapper-block;
+}
+
+%content-wrapper-1920 {
+    @extend %block;
+    width: 1768px;
+    height: 3055px;
+    background-color: $color-content-wrapper;
+}
+
+%content-wrapper-1280 {
+    @extend %block;
+    width: 1200px;
+    height: 2646px;
+    background-color: $color-content-wrapper;
+}
+
+%content-wrapper-768 {
+    @extend %block;
+    width: 738px;
+    height: 2891px;
+    background-color: $color-content-wrapper;
+}
+
+%content-wrapper-360 {
+    @extend %block;
+    width: 330px;
+    height: 3994px;
+    background-color: $color-content-wrapper;
+}
+
+%header-wrapper-1920 {
+    @extend %block;
+    width: 1530px;
+    height: 93px;
+    background-color: $color-element-wrapper;
+}
+
+%header-wrapper-1280 {
+    @extend %block;
+    width: 1200px;
+    height: 75px;
+    background-color: $color-element-wrapper;
+}
+
+%header-wrapper-768 {
+    @extend %block;
+    width: 738px;
+    height: 81px;
+    background-color: $color-element-wrapper;
+}
+
+%header-wrapper-360 {
+    @extend %block;
+    width: 330px;
+    height: 54px;
+    background-color: $color-element-wrapper;
+}
+
+%courses-wrapper-1920 {
+    @extend %flex;
+    width: 1530px;
+    height: 637px;
+    background-color: $color-courses-wrapper;
+}
+
+%courses-wrapper-1280 {
+    @extend %flex;
+    width: 1200px;
+    height: 585px;
+    background-color: $color-courses-wrapper;
+}
+
+%courses-wrapper-768 {
+    @extend %flex;
+    width: 749px;
+    height: 700px;
+    background-color: $color-courses-wrapper;
+}
+
+%courses-wrapper-360 {
+    @extend %flex;
+    width: 345px;
+    height: 856px;
+    background-color: $color-courses-wrapper;
+}
+
+%title-wrapper-1920 {
+    @extend %block;
+    width: 868px;
+    height: 637px;
+    background-color: $color-title-wrapper;
+}
+
+%title-wrapper-1280 {
+    @extend %block;
+    width: 711px;
+    height: 585px;
+    background-color: $color-title-wrapper;
+}
+
+%title-wrapper-768 {
+    @extend %block;
+    width: 482px;
+    height: 700px;
+    background-color: $color-title-wrapper;
+}
+
+%title-wrapper-360 {
+    @extend %block;
+    width: 330px;
+    height: 856px;
+    background-color: $color-title-wrapper;
+}
+
+%superman-wrapper-1920 {
+    @extend %block;
+    width: 620px;
+    height: 605px;
+    background-color: $color-superman-wrapper;
+}
+
+%superman-wrapper-1280 {
+    @extend %block;
+    width: 458px;
+    height: 460px;
+    background-color: $color-superman-wrapper;
+}
+
+%superman-wrapper-768 {
+    @extend %block;
+    width: 410px;
+    height: 410px;
+    background-color: $color-superman-wrapper;
+}
+
+%superman-wrapper-360 {
+    @extend %block;
+    width: 245px;
+    height: 245px;
+    background-color: $color-superman-wrapper;
+}
+
+%course-author-wrapper-1920 {
+    @extend %block;
+    width: 1320px;
+    height: 1156px;
+    background-color: $color-course-author-wrapper;
+}
+
+%course-author-wrapper-1280 {
+    @extend %block;
+    width: 995px;
+    height: 934px;
+    background-color: $color-course-author-wrapper;
+}
+
+%course-author-wrapper-768 {
+    @extend %block;
+    width: 738px;
+    height: 849px;
+    background-color: $color-course-author-wrapper;
+}
+
+%course-author-wrapper-360 {
+    @extend %block;
+    width: 330px;
+    height: 1397px;
+    background-color: $color-course-author-wrapper;
+}
+
+%description-wrapper-1920 {
+    @extend %block;
+    width: 844px;
+    height: 128px;
+    background-color: $color-header-wrapper;
+}
+
+%description-wrapper-1280 {
+    @extend %block;
+    width: 652px;
+    height: 128px;
+    background-color: $color-header-wrapper;
+}
+
+%description-wrapper-768 {
+    @extend %block;
+    width: 626px;
+    height: 128px;
+    background-color: $color-header-wrapper;
+}
+
+%description-wrapper-360 {
+    @extend %block;
+    width: 332px;
+    height: 108px;
+    background-color: $color-header-wrapper;
+}
+
+%block-one-wrapper-1920 {
+    @extend %block;
+    width: 1286px;
+    height: 469px;
+    background-color: $color-block-one-wrapper;
+}
+
+%block-one-wrapper-1280 {
+    @extend %block;
+    width: 995px;
+    height: 362px;
+    background-color: $color-block-one-wrapper;
+}
+
+%block-one-wrapper-768 {
+    @extend %block;
+    width: 738px;
+    height: 278px;
+    background-color: $color-block-one-wrapper;
+}
+
+%block-one-wrapper-360 {
+    @extend %block;
+    width: 330px;
+    height: 569px;
+    background-color: $color-block-one-wrapper;
+}
+
+%block-two-wrapper-1920 {
+    @extend %block;
+    width: 1304px;
+    height: 474px;
+    background-color: $color-block-two-wrapper;
+}
+
+%block-two-wrapper-1280 {
+    @extend %block;
+    width: 995px;
+    height: 358px;
+    background-color: $color-block-two-wrapper;
+}
+
+%block-two-wrapper-768 {
+    @extend %block;
+    width: 738px;
+    height: 303px;
+    background-color: $color-block-two-wrapper;
+}
+
+%block-two-wrapper-360 {
+    @extend %block;
+    width: 330px;
+    height: 629px;
+    background-color: $color-block-two-wrapper;
+}
+
+%training-wrapper-1920 {
+    @extend %block;
+    width: 846px;
+    height: 238px;
+    background-color: $color-training-wrapper;
+}
+
+%training-wrapper-1280 {
+    @extend %block;
+    width: 684px;
+    height: 222px;
+    background-color: $color-training-wrapper;
+}
+
+%training-wrapper-768 {
+    @extend %block;
+    width: 684px;
+    height: 217px;
+    background-color: $color-training-wrapper;
+}
+
+%training-wrapper-360 {
+    @extend %block;
+    width: 330px;
+    height: 249px;
+    background-color: $color-training-wrapper;
+}
+
+// heading
+
+// text
+
+%cards-wrapper-1920 {
+    @extend %block;
+    width: 1529px;
+    height: 368px;
+    background-color: $color-cards-wrapper;
+}
+
+%cards-wrapper-1280 {
+    @extend %block;
+    width: 1168px;
+    height: 336px;
+    background-color: $color-cards-wrapper;
+}
+
+%cards-wrapper-768 {
+    @extend %block;
+    width: 570px;
+    height: 650px;
+    background-color: $color-cards-wrapper;
+}
+
+%cards-wrapper-360 {
+    @extend %block;
+    width: 260px;
+    height: 1163px;
+    background-color: $color-cards-wrapper;
+}

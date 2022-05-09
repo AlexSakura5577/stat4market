@@ -355,15 +355,88 @@ ul {
   list-style: none;
 }
 
-h1 {
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
+.wrapper, .content, .header, .title, .superman, .course-author, .description, .block-one, .block-two, .training, .cards {
+  display: block;
+  margin: 0 auto;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 80px;
-  color: #000000;
+.courses {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 1920px;
+  height: 3083px;
+  background-color: blue;
+}
+
+.content {
+  width: 1768px;
+  height: 3055px;
+  background-color: cyan;
+}
+
+.header {
+  width: 1530px;
+  height: 93px;
+  background-color: crimson;
+}
+
+.courses {
+  width: 1530px;
+  height: 637px;
+  background-color: #57e328;
+}
+
+.title {
+  width: 868px;
+  height: 637px;
+  background-color: #ff00f7;
+}
+
+.superman {
+  width: 620px;
+  height: 605px;
+  background-color: #c300ff;
+}
+
+.course-author {
+  width: 1320px;
+  height: 1156px;
+  background-color: yellow;
+}
+
+.description {
+  width: 844px;
+  height: 128px;
+  background-color: darkgreen;
+}
+
+.block-one {
+  width: 1286px;
+  height: 469px;
+  background-color: #ff009d;
+}
+
+.block-two {
+  width: 1304px;
+  height: 474px;
+  background-color: #00ff1a;
+}
+
+.training {
+  width: 846px;
+  height: 238px;
+  background-color: #961ed2;
+}
+
+.cards {
+  width: 1529px;
+  height: 368px;
+  background-color: lime;
 }
 /*# sourceMappingURL=style.css.map */
