@@ -6,6 +6,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -354,8 +355,15 @@ ul {
   list-style: none;
 }
 
-h2 {
-  color: aqua;
-  font-size: 30px;
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 80px;
+  color: #000000;
 }
 /*# sourceMappingURL=style.css.map */

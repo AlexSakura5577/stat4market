@@ -1,12 +1,11 @@
-@import "./fonts";
 // @import "./reset";
 @import "./normalize";
+@import "./fonts";
 @import "./variables";
 @import "./extends";
 @import "./mixins";
 @import "./components";
 
-h2 {
-    color: aqua;
-    font-size: 30px;
+h1 {
+    @extend %ex1-H1_Lato_Bold_56-80;
 }
