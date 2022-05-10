@@ -3,3 +3,303 @@
         @content;
     }
 }
+
+// Adaptive
+
+@mixin wrapper-1920 {
+    width: 1920px;
+    height: 3083px;
+    background-color: $color-wrapper-block;
+}
+
+@mixin wrapper-1280 {
+    width: 1280px;
+    height: 2658px;
+    background-color: $color-wrapper-block;
+}
+
+@mixin wrapper-768 {
+    width: 768px;
+    height: 2909px;
+    background-color: $color-wrapper-block;
+}
+
+@mixin wrapper-360 {
+    width: 360px;
+    height: 4079px;
+    background-color: $color-wrapper-block;
+}
+
+@mixin content-wrapper-1920 {
+    width: 1768px;
+    height: 3055px;
+    background-color: $color-content-wrapper;
+}
+
+@mixin content-wrapper-1280 {
+    width: 1200px;
+    height: 2646px;
+    background-color: $color-content-wrapper;
+}
+
+@mixin content-wrapper-768 {
+    width: 738px;
+    height: 2891px;
+    background-color: $color-content-wrapper;
+}
+
+@mixin content-wrapper-360 {
+    width: 330px;
+    height: 3994px;
+    background-color: $color-content-wrapper;
+}
+
+@mixin header-wrapper-1920 {
+    width: 1530px;
+    height: 93px;
+    // background-color: $color-element-wrapper;
+    background-color: red;
+}
+
+@mixin header-wrapper-1280 {
+    width: 1200px;
+    height: 75px;
+    // background-color: $color-element-wrapper;
+    background-color: rgb(30, 255, 0);
+}
+
+@mixin header-wrapper-768 {
+    width: 738px;
+    height: 81px;
+    // background-color: $color-element-wrapper;
+    background-color: rgb(0, 68, 255);
+}
+
+@mixin header-wrapper-360 {
+    width: 330px;
+    height: 54px;
+    // background-color: $color-element-wrapper;
+    background-color: rgb(115, 0, 255);
+}
+
+@mixin courses-wrapper-1920 {
+    width: 1530px;
+    height: 637px;
+    background-color: $color-courses-wrapper;
+}
+
+@mixin courses-wrapper-1280 {
+    width: 1200px;
+    height: 585px;
+    background-color: $color-courses-wrapper;
+}
+
+@mixin courses-wrapper-768 {
+    width: 749px;
+    height: 700px;
+    background-color: $color-courses-wrapper;
+}
+
+@mixin courses-wrapper-360 {
+    width: 345px;
+    height: 856px;
+    background-color: $color-courses-wrapper;
+}
+
+@mixin title-wrapper-1920 {
+    width: 868px;
+    height: 637px;
+    background-color: $color-title-wrapper;
+}
+
+@mixin title-wrapper-1280 {
+    width: 711px;
+    height: 585px;
+    background-color: $color-title-wrapper;
+}
+
+@mixin title-wrapper-768 {
+    width: 482px;
+    height: 700px;
+    background-color: $color-title-wrapper;
+}
+
+@mixin title-wrapper-360 {
+    width: 330px;
+    height: 856px;
+    background-color: $color-title-wrapper;
+}
+
+@mixin superman-wrapper-1920 {
+    width: 620px;
+    height: 605px;
+    background-color: $color-superman-wrapper;
+}
+
+
+@mixin superman-wrapper-1280 {
+    width: 458px;
+    height: 460px;
+    background-color: $color-superman-wrapper;
+}
+
+@mixin superman-wrapper-768 {
+    width: 410px;
+    height: 410px;
+    background-color: $color-superman-wrapper;
+}
+
+@mixin superman-wrapper-360 {
+    width: 245px;
+    height: 245px;
+    background-color: $color-superman-wrapper;
+}
+
+@mixin course-author-wrapper-1920 {
+    width: 1320px;
+    height: 1156px;
+    background-color: $color-course-author-wrapper;
+}
+
+@mixin course-author-wrapper-1280 {
+    width: 995px;
+    height: 934px;
+    background-color: $color-course-author-wrapper;
+}
+
+@mixin course-author-wrapper-768 {
+    width: 738px;
+    height: 849px;
+    background-color: $color-course-author-wrapper;
+}
+
+@mixin course-author-wrapper-360 {
+    width: 330px;
+    height: 1397px;
+    background-color: $color-course-author-wrapper;
+}
+
+@mixin description-wrapper-1920 {
+    width: 844px;
+    height: 128px;
+    background-color: $color-header-wrapper;
+}
+
+@mixin description-wrapper-1280 {
+    width: 652px;
+    height: 128px;
+    background-color: $color-header-wrapper;
+}
+
+@mixin description-wrapper-768 {
+    width: 626px;
+    height: 128px;
+    background-color: $color-header-wrapper;
+}
+
+@mixin description-wrapper-360 {
+    width: 332px;
+    height: 108px;
+    background-color: $color-header-wrapper;
+}
+
+@mixin block-one-wrapper-1920 {
+    width: 1286px;
+    height: 469px;
+    background-color: $color-block-one-wrapper;
+}
+
+@mixin block-one-wrapper-1280 {
+    width: 995px;
+    height: 362px;
+    background-color: $color-block-one-wrapper;
+}
+
+@mixin block-one-wrapper-768 {
+    width: 738px;
+    height: 278px;
+    background-color: $color-block-one-wrapper;
+}
+
+@mixin block-one-wrapper-360 {
+    width: 330px;
+    height: 569px;
+    background-color: $color-block-one-wrapper;
+}
+
+@mixin block-two-wrapper-1920 {
+    width: 1304px;
+    height: 474px;
+    background-color: $color-block-two-wrapper;
+}
+
+@mixin block-two-wrapper-1280 {
+    width: 995px;
+    height: 358px;
+    background-color: $color-block-two-wrapper;
+}
+
+@mixin block-two-wrapper-768 {
+    width: 738px;
+    height: 303px;
+    background-color: $color-block-two-wrapper;
+}
+
+@mixin block-two-wrapper-360 {
+    width: 330px;
+    height: 629px;
+    background-color: $color-block-two-wrapper;
+}
+
+@mixin training-wrapper-1920 {
+    width: 846px;
+    height: 238px;
+    background-color: $color-training-wrapper;
+}
+
+@mixin training-wrapper-1280 {
+    width: 684px;
+    height: 222px;
+    background-color: $color-training-wrapper;
+}
+
+@mixin training-wrapper-768 {
+    width: 684px;
+    height: 217px;
+    background-color: $color-training-wrapper;
+}
+
+@mixin training-wrapper-360 {
+    width: 330px;
+    height: 249px;
+    background-color: $color-training-wrapper;
+}
+
+// heading
+
+// text
+
+@mixin cards-wrapper-1920 {
+    width: 1529px;
+    height: 368px;
+    background-color: $color-cards-wrapper;
+}
+
+
+@mixin cards-wrapper-1280 {
+    width: 1168px;
+    height: 336px;
+    background-color: $color-cards-wrapper;
+}
+
+@mixin cards-wrapper-768 {
+    width: 570px;
+    height: 650px;
+    background-color: $color-cards-wrapper;
+}
+
+@mixin cards-wrapper-360 {
+    width: 260px;
+    height: 1163px;
+    background-color: $color-cards-wrapper;
+}

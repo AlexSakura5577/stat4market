@@ -2,54 +2,66 @@
 @import "./normalize";
 @import "./fonts";
 @import "./variables";
-@import "./extends";
 @import "./mixins";
+@import "./extends";
 @import "./components";
 
-@include media($desktop) {}
+// 1920
+//////////////////////////////////////////////////////////////////////////
 
 .wrapper {
-    // @extend %block;
+    @extend %block;
     @extend %wrapper-1920;
 }
 
 .content {
+    @extend %block;
     @extend %content-wrapper-1920;
 }
 
 .header {
+    @extend %block;
     @extend %header-wrapper-1920;
+    border: 1px solid black;
 }
 
 .courses {
+    @extend %flex;
     @extend %courses-wrapper-1920;
 }
 
 .title {
+    @extend %block;
     @extend %title-wrapper-1920;
 }
 
 .superman {
+    @extend %block;
     @extend %superman-wrapper-1920;
 }
 
 .course-author {
+    @extend %block;
     @extend %course-author-wrapper-1920;
 }
 
 .description {
+    @extend %block;
     @extend %description-wrapper-1920;
 }
 
 .block-one {
+    @extend %block;
     @extend %block-one-wrapper-1920;
 }
 
 .block-two {
+    @extend %block;
     @extend %block-two-wrapper-1920;
 }
 
 .training {
+    @extend %block;
     @extend %training-wrapper-1920;
 }
 
@@ -58,6 +70,7 @@
 // text
 
 .cards {
+    @extend %block;
     @extend %cards-wrapper-1920;
 }
 
@@ -66,51 +79,51 @@
 // card-3
 // card-4
 
+@include media($desktop) {
 
-// Adaptive 1280
-@include media($notebook) {
+
     .wrapper {
-        // @extend %wrapper-1280;
+        @include wrapper-1920;
     }
 
     .content {
-        // @extend %content-wrapper-1280;
+        @include content-wrapper-1920;
     }
 
     .header {
-        // @extend %header-wrapper-1280;
+        @include header-wrapper-1920;
     }
 
     .courses {
-        // @extend %courses-wrapper-1280;
+        @include courses-wrapper-1920;
     }
 
     .title {
-        // @extend %title-wrapper-1280;
+        @include title-wrapper-1920;
     }
 
     .superman {
-        // @extend %superman-wrapper-1280;
+        @include superman-wrapper-1920;
     }
 
     .course-author {
-        // @extend %course-author-wrapper-1280;
+        @include course-author-wrapper-1920;
     }
 
     .description {
-        // @extend %description-wrapper-1280;
+        @include description-wrapper-1920;
     }
 
     .block-one {
-        // @extend %block-one-wrapper-1280;
+        @include block-one-wrapper-1920;
     }
 
     .block-two {
-        // @extend %block-two-wrapper-1280;
+        @include block-two-wrapper-1920;
     }
 
     .training {
-        // @extend %training-wrapper-1280;
+        @include training-wrapper-1920;
     }
 
     // heading
@@ -118,7 +131,126 @@
     // text
 
     .cards {
-        // @extend %cards-wrapper-1280;
+        @include cards-wrapper-1920;
+    }
+
+    // card-1
+    // card-2
+    // card-3
+    // card-4
+}
+
+// Adaptive 1280
+////////////////////////////////////////////////////////////////////
+.wrapper {
+    @extend %wrapper-1280;
+}
+
+.content {
+    @extend %content-wrapper-1280;
+}
+
+.header-wrapper-1280 {
+    @extend %header-wrapper-1280;
+}
+
+.courses {
+    @extend %courses-wrapper-1280;
+}
+
+.title {
+    @extend %title-wrapper-1280;
+}
+
+.superman {
+    @extend %superman-wrapper-1280;
+}
+
+.course-author {
+    @extend %course-author-wrapper-1280;
+}
+
+.description {
+    @extend %description-wrapper-1280;
+}
+
+.block-one {
+    @extend %block-one-wrapper-1280;
+}
+
+.block-two {
+    @extend %block-two-wrapper-1280;
+}
+
+.training {
+    @extend %training-wrapper-1280;
+}
+
+// heading
+
+// text
+
+.cards {
+    @extend %cards-wrapper-1280;
+}
+
+// card-1
+// card-2
+// card-3
+// card-4
+
+@include media($notebook) {
+
+    .wrapper {
+        @include wrapper-1280;
+    }
+
+    .content {
+        @include content-wrapper-1280;
+    }
+
+    .header {
+        @include header-wrapper-1280;
+    }
+
+    .courses {
+        @include courses-wrapper-1280;
+    }
+
+    .title {
+        @include title-wrapper-1280;
+    }
+
+    .superman {
+        @include superman-wrapper-1280;
+    }
+
+    .course-author {
+        @include course-author-wrapper-1280;
+    }
+
+    .description {
+        @include description-wrapper-1280;
+    }
+
+    .block-one {
+        @include block-one-wrapper-1280;
+    }
+
+    .block-two {
+        @include block-two-wrapper-1280;
+    }
+
+    .training {
+        @include training-wrapper-1280;
+    }
+
+    // heading
+
+    // text
+
+    .cards {
+        @include cards-wrapper-1280;
     }
 
     // card-1
@@ -128,49 +260,108 @@
 }
 
 // Adaptive 768
+///////////////////////////////////////////////////////////////////////////
+.wrapper {
+    @extend %wrapper-768;
+}
+
+.content {
+    @extend %content-wrapper-768;
+}
+
+.header {
+    @extend %header-wrapper-768;
+}
+
+.courses {
+    @extend %courses-wrapper-768;
+}
+
+.title {
+    @extend %title-wrapper-768;
+}
+
+.superman {
+    @extend %superman-wrapper-768;
+}
+
+.course-author {
+    @extend %course-author-wrapper-768;
+}
+
+.description {
+    @extend %description-wrapper-768;
+}
+
+.block-one {
+    @extend %block-one-wrapper-768;
+}
+
+.block-two {
+    @extend %block-two-wrapper-768;
+}
+
+.training {
+    @extend %training-wrapper-768;
+}
+
+// heading
+
+// text
+
+.cards {
+    @extend %cards-wrapper-768;
+}
+
+// card-1
+// card-2
+// card-3
+// card-4
+
 @include media($tablet) {
+
     .wrapper {
-        // @extend %wrapper-768;
+        @include wrapper-768;
     }
 
     .content {
-        // @extend %content-wrapper-768;
+        @include content-wrapper-768;
     }
 
     .header {
-        // @extend %header-wrapper-768;
+        @include header-wrapper-768;
     }
 
     .courses {
-        // @extend %courses-wrapper-768;
+        @include courses-wrapper-768;
     }
 
     .title {
-        // @extend %title-wrapper-768;
+        @include title-wrapper-768;
     }
 
     .superman {
-        // @extend %superman-wrapper-768;
+        @include superman-wrapper-768;
     }
 
     .course-author {
-        // @extend %course-author-wrapper-768;
+        @include course-author-wrapper-768;
     }
 
     .description {
-        // @extend %description-wrapper-768;
+        @include description-wrapper-768;
     }
 
     .block-one {
-        // @extend %block-one-wrapper-768;
+        @include block-one-wrapper-768;
     }
 
     .block-two {
-        // @extend %block-two-wrapper-768;
+        @include block-two-wrapper-768;
     }
 
     .training {
-        // @extend %training-wrapper-768;
+        @include training-wrapper-768;
     }
 
     // heading
@@ -178,7 +369,7 @@
     // text
 
     .cards {
-        // @extend %cards-wrapper-768;
+        @include cards-wrapper-768;
     }
 
     // card-1
@@ -188,49 +379,108 @@
 }
 
 // Adaptive 360
+//////////////////////////////////////////////////////////////////////////
+.wrapper {
+    @extend %wrapper-360;
+}
+
+.content {
+    @extend %content-wrapper-360;
+}
+
+.header {
+    @extend %header-wrapper-360;
+}
+
+.courses {
+    @extend %courses-wrapper-360;
+}
+
+.title {
+    @extend %title-wrapper-360;
+}
+
+.superman {
+    @extend %superman-wrapper-360;
+}
+
+.course-author {
+    @extend %course-author-wrapper-360;
+}
+
+.description {
+    @extend %description-wrapper-360;
+}
+
+.block-one {
+    @extend %block-one-wrapper-360;
+}
+
+.block-two {
+    @extend %block-two-wrapper-360;
+}
+
+.training {
+    @extend %training-wrapper-360;
+}
+
+// heading
+
+// text
+
+.cards {
+    @extend %cards-wrapper-360;
+}
+
+// card-1
+// card-2
+// card-3
+// card-4
+
 @include media($mobile) {
+
     .wrapper {
-        // @extend %wrapper-360;
+        @include wrapper-360;
     }
 
     .content {
-        // @extend %content-wrapper-360;
+        @include content-wrapper-360;
     }
 
     .header {
-        // @extend %header-wrapper-360;
+        @include header-wrapper-360;
     }
 
     .courses {
-        // @extend %courses-wrapper-360;
+        @include courses-wrapper-360;
     }
 
     .title {
-        // @extend %title-wrapper-360;
+        @include title-wrapper-360;
     }
 
     .superman {
-        // @extend %superman-wrapper-360;
+        @include superman-wrapper-360;
     }
 
     .course-author {
-        // @extend %course-author-wrapper-360;
+        @include course-author-wrapper-360;
     }
 
     .description {
-        // @extend %description-wrapper-360;
+        @include description-wrapper-360;
     }
 
     .block-one {
-        // @extend %block-one-wrapper-360;
+        @include block-one-wrapper-360;
     }
 
     .block-two {
-        // @extend %block-two-wrapper-360;
+        @include block-two-wrapper-360;
     }
 
     .training {
-        // @extend %training-wrapper-360;
+        @include training-wrapper-360;
     }
 
     // heading
@@ -238,7 +488,7 @@
     // text
 
     .cards {
-        // @extend %cards-wrapper-360;
+        @include cards-wrapper-360;
     }
 
     // card-1
