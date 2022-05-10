@@ -941,6 +941,51 @@ h6 {
     width: 1530px;
     height: 93px;
     background-color: red;
+    display: flex;
+  }
+  .stat4market-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 241px;
+    height: 71px;
+    background-color: white;
+  }
+  .mask-group {
+    width: 60px;
+    height: 30px;
+  }
+  .stat4market {
+    width: 163px;
+    height: 39px;
+    margin-top: 30px;
+  }
+  .line-5 {
+    width: 80px;
+    height: 0px;
+    border: 1px solid rgba(51, 26, 47, 0.5);
+    transform: rotate(90deg);
+    margin-top: 51px;
+  }
+  .service {
+    width: 204px;
+    height: 54px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(51, 26, 47, 0.9);
+  }
+  .analytics {
+    width: 145px;
+    height: 36px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .polygon-1 {
+    width: 13px;
+    height: 12px;
   }
   .courses {
     width: 1530px;
