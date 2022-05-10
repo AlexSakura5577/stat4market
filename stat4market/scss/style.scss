@@ -8,6 +8,34 @@
 
 // 1920
 //////////////////////////////////////////////////////////////////////////
+// fonts
+h1 {
+    @extend %ex1-H1_Lato_Bold_56-80;
+}
+
+h2 {
+    @extend %ex2-H2_Lato_Bold_48-64;
+}
+
+h3 {
+    @extend %ex3-H3_Lato_Semibold_42-55;
+}
+
+h4 {
+    @extend %ex4-H4_Lato_Semibold_35-45;
+}
+
+h5 {
+    @extend %ex5-H5_Lato_Semibold_24-150;
+}
+
+h6 {
+    @extend %ex6-H6_Lato_Semibold_18-25;
+}
+
+.regular-25 {
+    @extend %ex7-Text_Lato_Regular_25-160;
+}
 
 .wrapper {
     @extend %block;
@@ -22,7 +50,7 @@
 .header {
     @extend %block;
     @extend %header-wrapper-1920;
-    border: 1px solid black;
+    // border: 1px solid black;
 }
 
 .courses {
@@ -79,8 +107,37 @@
 // card-3
 // card-4
 
+
+
 @include media($desktop) {
 
+    h1 {
+        @include ex1-H1_Lato_Bold_56-80;
+    }
+
+    h2 {
+        @include ex2-H2_Lato_Bold_48-64;
+    }
+
+    h3 {
+        @include ex3-H3_Lato_Semibold_42-55;
+    }
+
+    h4 {
+        @include ex4-H4_Lato_Semibold_35-45;
+    }
+
+    h5 {
+        @include ex5-H5_Lato_Semibold_24-150;
+    }
+
+    h6 {
+        @include ex6-H6_Lato_Semibold_18-25;
+    }
+
+    .regular-25 {
+        @include ex7-Text_Lato_Regular_25-160;
+    }
 
     .wrapper {
         @include wrapper-1920;
@@ -142,6 +199,40 @@
 
 // Adaptive 1280
 ////////////////////////////////////////////////////////////////////
+
+// fonts header landing page 1280px
+h1 {
+    @extend %ex8-H1_Lato_Bold_46-65;
+}
+
+h2 {
+    @extend %ex9-H2_Lato_Bold_40-50;
+}
+
+h3 {
+    @extend %ex10-H3_Lato_Semibold_38-55;
+}
+
+h4 {
+    @extend %ex11-H4_Lato_Semibold_30-45;
+}
+
+h5 {
+    @extend %ex12-H5_Lato_Semibold_20-150;
+}
+
+h6 {
+    @extend %ex13-H6_Lato_Semibold_16-150;
+}
+
+.regular_20 {
+    @extend %ex14-Text_Lato_Regular_20-160;
+}
+
+.regular_16 {
+    @extend %ex15-Text_Lato_Regular_16-160;
+}
+
 .wrapper {
     @extend %wrapper-1280;
 }
@@ -200,6 +291,38 @@
 // card-4
 
 @include media($notebook) {
+
+    h1 {
+        @include ex8-H1_Lato_Bold_46-65;
+    }
+
+    h2 {
+        @include ex9-H2_Lato_Bold_40-50;
+    }
+
+    h3 {
+        @include ex10-H3_Lato_Semibold_38-55;
+    }
+
+    h4 {
+        @include ex11-H4_Lato_Semibold_30-45;
+    }
+
+    h5 {
+        @include ex12-H5_Lato_Semibold_20-150;
+    }
+
+    h6 {
+        @include ex13-H6_Lato_Semibold_16-150;
+    }
+
+    .regular_20 {
+        @include ex14-Text_Lato_Regular_20-160;
+    }
+
+    .regular_16 {
+        @include ex15-Text_Lato_Regular_16-160;
+    }
 
     .wrapper {
         @include wrapper-1280;
@@ -261,6 +384,39 @@
 
 // Adaptive 768
 ///////////////////////////////////////////////////////////////////////////
+
+h1 {
+    @extend %ex16-H1_Lato_Bold_46-65;
+}
+
+h2 {
+    @extend %ex17-H2_Lato_Bold_40-50;
+}
+
+h3 {
+    @extend %ex18-H3_Lato_Semibold_38-55;
+}
+
+h4 {
+    @extend %ex19-H4_Lato_Semibold_30-45;
+}
+
+h5 {
+    @extend %ex20-H5_Lato_Semibold_20-150;
+}
+
+h6 {
+    @extend %ex21-H6_Lato_Semibold_16-150;
+}
+
+.regular_20 {
+    @extend %ex22-Text_Lato_Regular_20-160;
+}
+
+.regular_16 {
+    @extend %ex23-Text_Lato_Regular_16-160;
+}
+
 .wrapper {
     @extend %wrapper-768;
 }
@@ -319,6 +475,38 @@
 // card-4
 
 @include media($tablet) {
+
+    h1 {
+        @include ex16-H1_Lato_Bold_46-65;
+    }
+
+    h2 {
+        @include ex17-H2_Lato_Bold_40-50;
+    }
+
+    h3 {
+        @include ex18-H3_Lato_Semibold_38-55;
+    }
+
+    h4 {
+        @include ex19-H4_Lato_Semibold_30-45;
+    }
+
+    h5 {
+        @include ex20-H5_Lato_Semibold_20-150;
+    }
+
+    h6 {
+        @include ex21-H6_Lato_Semibold_16-150;
+    }
+
+    .regular_20 {
+        @include ex22-Text_Lato_Regular_20-160;
+    }
+
+    .regular_16 {
+        @include ex23-Text_Lato_Regular_16-160;
+    }
 
     .wrapper {
         @include wrapper-768;
@@ -380,6 +568,39 @@
 
 // Adaptive 360
 //////////////////////////////////////////////////////////////////////////
+
+h1 {
+    @extend %ex24-H1_Lato_Bold_26-150;
+}
+
+h2 {
+    @extend %ex25-H2_Lato_Bold_24-150;
+}
+
+h3 {
+    @extend %ex26-H3_Lato_Semibold_22-150;
+}
+
+h4 {
+    @extend %ex27-H4_Lato_Semibold_20-150;
+}
+
+h5 {
+    @extend %ex28-H5_Lato_Semibold_18-150;
+}
+
+h6 {
+    @extend %ex29-H6_Lato_Semibold_16-150;
+}
+
+.regular_18 {
+    @extend %ex30-Text_Lato_Regular_18-160;
+}
+
+.regular_16 {
+    @extend %ex31-Text_Lato_Regular_16-160;
+}
+
 .wrapper {
     @extend %wrapper-360;
 }
@@ -438,6 +659,39 @@
 // card-4
 
 @include media($mobile) {
+
+
+    h1 {
+        @include ex24-H1_Lato_Bold_26-150;
+    }
+
+    h2 {
+        @include ex25-H2_Lato_Bold_24-150;
+    }
+
+    h3 {
+        @include ex26-H3_Lato_Semibold_22-150;
+    }
+
+    h4 {
+        @include ex27-H4_Lato_Semibold_20-150;
+    }
+
+    h5 {
+        @include ex28-H5_Lato_Semibold_18-150;
+    }
+
+    h6 {
+        @include ex29-H6_Lato_Semibold_16-150;
+    }
+
+    .regular_18 {
+        @include ex30-Text_Lato_Regular_18-160;
+    }
+
+    .regular_16 {
+        @include ex31-Text_Lato_Regular_16-160;
+    }
 
     .wrapper {
         @include wrapper-360;

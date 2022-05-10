@@ -7,258 +7,129 @@
 
 // fonts header landing page 1920px
 %ex1-H1_Lato_Bold_56-80 {
-    @extend %font-family-style;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 80px;
-    color: #000000;
+    // @extend %font-family-style;
+    @include ex1-H1_Lato_Bold_56-80;
 }
 
 %ex2-H2_Lato_Bold_48-64 {
-    @extend %font-family-style;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 64px;
-    color: #331A2F;
+    @include ex2-H2_Lato_Bold_48-64;
 }
 
 %ex3-H3_Lato_Semibold_42-55 {
-    @extend %font-family-style;
-    font-weight: 600;
-    font-size: 42px;
-    line-height: 55px;
-    color: #331A2F;
+    @include ex3-H3_Lato_Semibold_42-55;
 }
 
 %ex4-H4_Lato_Semibold_35-45 {
-    @extend %font-family-style;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 29px;
-    color: #331A2F;
+    @include ex4-H4_Lato_Semibold_35-45;
 }
 
 %ex5-H5_Lato_Semibold_24-150 {
-    @extend %font-family-style;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 150%;
-    color: #331A2F;
+    @include ex5-H5_Lato_Semibold_24-150;
 }
 
 %ex6-H6_Lato_Semibold_18-25 {
-    @extend %font-family-style;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    color: #331A2F;
+    @include ex6-H6_Lato_Semibold_18-25;
 }
 
 %ex7-Text_Lato_Regular_25-160 {
-    @extend %font-family-style;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 160%;
-    color: rgba(51, 26, 47, 0.8);
+    @include ex7-Text_Lato_Regular_25-160;
 }
 
 // fonts header landing page 1280px
 %ex8-H1_Lato_Bold_46-65 {
-    @extend %font-family-style;
-    font-weight: 700;
-    font-size: 46px;
-    line-height: 65px;
-    color: #331A2F;
+    @include ex8-H1_Lato_Bold_46-65;
 }
 
 %ex9-H2_Lato_Bold_40-50 {
-    @extend %font-family-style;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 50px;
-    color: #331A2F;
+    @include ex9-H2_Lato_Bold_40-50;
 }
 
 %ex10-H3_Lato_Semibold_38-55 {
-    @extend %font-family-style;
-    font-weight: 600;
-    font-size: 38px;
-    line-height: 55px;
-    color: #331A2F;
+    @include ex10-H3_Lato_Semibold_38-55;
 }
 
 %ex11-H4_Lato_Semibold_30-45 {
-    @extend %font-family-style;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 36px;
-    color: #331A2F;
+    @include ex11-H4_Lato_Semibold_30-45;
 }
 
 %ex12-H5_Lato_Semibold_20-150 {
-    @extend %font-family-style;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 150%;
-    color: #331A2F;
+    @include ex12-H5_Lato_Semibold_20-150;
 }
 
 %ex13-H6_Lato_Semibold_16-150 {
-    @extend %font-family-style;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 150%;
-    color: #331A2F;
+    @include ex13-H6_Lato_Semibold_16-150;
 }
 
 %ex14-Text_Lato_Regular_20-160 {
-    @extend %font-family-style;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 160%;
-    display: flex;
-    align-items: center;
-    color: rgba(51, 26, 47, 0.8);
+    @include ex14-Text_Lato_Regular_20-160;
 }
 
 %ex15-Text_Lato_Regular_16-160 {
-    @extend %font-family-style;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    color: rgba(51, 26, 47, 0.8);
+    @include ex15-Text_Lato_Regular_16-160;
 }
 
 // fonts header landing page 768px
 %ex16-H1_Lato_Bold_46-65 {
-    @extend %font-family-style;
-    font-weight: 700;
-    font-size: 46px;
-    line-height: 65px;
-    color: #331A2F;
+    @include ex16-H1_Lato_Bold_46-65;
 }
 
 %ex17-H2_Lato_Bold_40-50 {
-    @extend %font-family-style;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 50px;
-    color: #331A2F;
+    @include ex17-H2_Lato_Bold_40-50;
 }
 
 %ex18-H3_Lato_Semibold_38-55 {
-    @extend %font-family-style;
-    font-weight: 600;
-    font-size: 38px;
-    line-height: 55px;
-    color: #331A2F;
+    @include ex18-H3_Lato_Semibold_38-55;
 }
 
 %ex19-H4_Lato_Semibold_30-45 {
-    @extend %font-family-style;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 36px;
-    color: #331A2F;
+    @include ex19-H4_Lato_Semibold_30-45;
 }
 
 %ex20-H5_Lato_Semibold_20-150 {
-    @extend %font-family-style;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 150%;
-    color: #331A2F;
+    @include ex20-H5_Lato_Semibold_20-150;
 }
 
 %ex21-H6_Lato_Semibold_16-150 {
-    @extend %font-family-style;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 150%;
-    color: #331A2F;
+    @include ex21-H6_Lato_Semibold_16-150;
 }
 
 %ex22-Text_Lato_Regular_20-160 {
-    @extend %font-family-style;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 160%;
-    display: flex;
-    align-items: center;
-    color: rgba(51, 26, 47, 0.8);
+    @include ex22-Text_Lato_Regular_20-160;
 }
 
 %ex23-Text_Lato_Regular_16-160 {
-    @extend %font-family-style;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    color: rgba(51, 26, 47, 0.8);
+    @include ex23-Text_Lato_Regular_16-160;
 }
 
 // fonts header landing page 360px
 %ex24-H1_Lato_Bold_26-150 {
-    @extend %font-family-style;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 150%;
-    color: #331A2F;
+    @include ex24-H1_Lato_Bold_26-150;
 }
 
 %ex25-H2_Lato_Bold_24-150 {
-    @extend %font-family-style;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 150%;
-    color: #331A2F;
+    @include ex25-H2_Lato_Bold_24-150;
 }
 
 %ex26-H3_Lato_Semibold_22-150 {
-    @extend %font-family-style;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 150%;
-    color: #331A2F;
+    @include ex26-H3_Lato_Semibold_22-150;
 }
 
 %ex27-H4_Lato_Semibold_20-150 {
-    @extend %font-family-style;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 150%;
-    color: #331A2F;
+    @include ex27-H4_Lato_Semibold_20-150;
 }
 
 %ex28-H5_Lato_Semibold_18-150 {
-    @extend %font-family-style;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 150%;
-    color: #331A2F;
+    @include ex28-H5_Lato_Semibold_18-150;
 }
 
 %ex29-H6_Lato_Semibold_16-150 {
-    @extend %font-family-style;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 150%;
-    color: #331A2F;
+    @include ex29-H6_Lato_Semibold_16-150;
 }
 
 %ex30-Text_Lato_Regular_18-160 {
-    @extend %font-family-style;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 160%;
-    display: flex;
-    align-items: center;
-    color: rgba(51, 26, 47, 0.8);
+    @include ex30-Text_Lato_Regular_18-160;
 }
 
 %ex31-Text_Lato_Regular_16-160 {
-    @extend %font-family-style;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    color: rgba(51, 26, 47, 0.8);
+    @include ex31-Text_Lato_Regular_16-160;
 }

@@ -303,3 +303,231 @@
     height: 1163px;
     background-color: $color-cards-wrapper;
 }
+
+// fonts header landing page 1920px
+@mixin ex1-H1_Lato_Bold_56-80 {
+    @extend %font-family-style;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    color: #000000;
+}
+
+@mixin ex2-H2_Lato_Bold_48-64 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #331A2F;
+}
+
+@mixin ex3-H3_Lato_Semibold_42-55 {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 55px;
+    color: #331A2F;
+}
+
+@mixin ex4-H4_Lato_Semibold_35-45 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 29px;
+    color: #331A2F;
+}
+
+@mixin ex5-H5_Lato_Semibold_24-150 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #331A2F;
+}
+
+@mixin ex6-H6_Lato_Semibold_18-25 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #331A2F;
+}
+
+@mixin ex7-Text_Lato_Regular_25-160 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 160%;
+    color: rgba(51, 26, 47, 0.8);
+}
+
+// fonts header landing page 1280px
+@mixin ex8-H1_Lato_Bold_46-65 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 65px;
+    color: #331A2F;
+}
+
+@mixin ex9-H2_Lato_Bold_40-50 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #331A2F;
+}
+
+@mixin ex10-H3_Lato_Semibold_38-55 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 55px;
+    color: #331A2F;
+}
+
+@mixin ex11-H4_Lato_Semibold_30-45 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #331A2F;
+}
+
+@mixin ex12-H5_Lato_Semibold_20-150 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #331A2F;
+}
+
+@mixin ex13-H6_Lato_Semibold_16-150 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #331A2F;
+}
+
+@mixin ex14-Text_Lato_Regular_20-160 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: rgba(51, 26, 47, 0.8);
+}
+
+@mixin ex15-Text_Lato_Regular_16-160 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(51, 26, 47, 0.8);
+}
+
+// fonts header landing page 768px
+@mixin ex16-H1_Lato_Bold_46-65 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 65px;
+    color: #331A2F;
+}
+
+@mixin ex17-H2_Lato_Bold_40-50 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #331A2F;
+}
+
+@mixin ex18-H3_Lato_Semibold_38-55 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 55px;
+    color: #331A2F;
+}
+
+@mixin ex19-H4_Lato_Semibold_30-45 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #331A2F;
+}
+
+@mixin ex20-H5_Lato_Semibold_20-150 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #331A2F;
+}
+
+@mixin ex21-H6_Lato_Semibold_16-150 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #331A2F;
+}
+
+@mixin ex22-Text_Lato_Regular_20-160 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: rgba(51, 26, 47, 0.8);
+}
+
+@mixin ex23-Text_Lato_Regular_16-160 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(51, 26, 47, 0.8);
+}
+
+// fonts header landing page 360px
+@mixin ex24-H1_Lato_Bold_26-150 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 150%;
+    color: #331A2F;
+}
+
+@mixin ex25-H2_Lato_Bold_24-150 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #331A2F;
+}
+
+@mixin ex26-H3_Lato_Semibold_22-150 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    color: #331A2F;
+}
+
+@mixin ex27-H4_Lato_Semibold_20-150 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #331A2F;
+}
+
+@mixin ex28-H5_Lato_Semibold_18-150 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #331A2F;
+}
+
+@mixin ex29-H6_Lato_Semibold_16-150 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #331A2F;
+}
+
+@mixin ex30-Text_Lato_Regular_18-160 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: rgba(51, 26, 47, 0.8);
+}
+
+@mixin ex31-Text_Lato_Regular_16-160 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(51, 26, 47, 0.8);
+}
