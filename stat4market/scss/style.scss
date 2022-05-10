@@ -6,13 +6,10 @@
 @import "./mixins";
 @import "./components";
 
-h1 {
-    // @extend %ex1-H1_Lato_Bold_56-80;
-}
-
-
+@include media($desktop) {}
 
 .wrapper {
+    // @extend %block;
     @extend %wrapper-1920;
 }
 
@@ -69,3 +66,183 @@ h1 {
 // card-3
 // card-4
 
+
+// Adaptive 1280
+@include media($notebook) {
+    .wrapper {
+        // @extend %wrapper-1280;
+    }
+
+    .content {
+        // @extend %content-wrapper-1280;
+    }
+
+    .header {
+        // @extend %header-wrapper-1280;
+    }
+
+    .courses {
+        // @extend %courses-wrapper-1280;
+    }
+
+    .title {
+        // @extend %title-wrapper-1280;
+    }
+
+    .superman {
+        // @extend %superman-wrapper-1280;
+    }
+
+    .course-author {
+        // @extend %course-author-wrapper-1280;
+    }
+
+    .description {
+        // @extend %description-wrapper-1280;
+    }
+
+    .block-one {
+        // @extend %block-one-wrapper-1280;
+    }
+
+    .block-two {
+        // @extend %block-two-wrapper-1280;
+    }
+
+    .training {
+        // @extend %training-wrapper-1280;
+    }
+
+    // heading
+
+    // text
+
+    .cards {
+        // @extend %cards-wrapper-1280;
+    }
+
+    // card-1
+    // card-2
+    // card-3
+    // card-4
+}
+
+// Adaptive 768
+@include media($tablet) {
+    .wrapper {
+        // @extend %wrapper-768;
+    }
+
+    .content {
+        // @extend %content-wrapper-768;
+    }
+
+    .header {
+        // @extend %header-wrapper-768;
+    }
+
+    .courses {
+        // @extend %courses-wrapper-768;
+    }
+
+    .title {
+        // @extend %title-wrapper-768;
+    }
+
+    .superman {
+        // @extend %superman-wrapper-768;
+    }
+
+    .course-author {
+        // @extend %course-author-wrapper-768;
+    }
+
+    .description {
+        // @extend %description-wrapper-768;
+    }
+
+    .block-one {
+        // @extend %block-one-wrapper-768;
+    }
+
+    .block-two {
+        // @extend %block-two-wrapper-768;
+    }
+
+    .training {
+        // @extend %training-wrapper-768;
+    }
+
+    // heading
+
+    // text
+
+    .cards {
+        // @extend %cards-wrapper-768;
+    }
+
+    // card-1
+    // card-2
+    // card-3
+    // card-4
+}
+
+// Adaptive 360
+@include media($mobile) {
+    .wrapper {
+        // @extend %wrapper-360;
+    }
+
+    .content {
+        // @extend %content-wrapper-360;
+    }
+
+    .header {
+        // @extend %header-wrapper-360;
+    }
+
+    .courses {
+        // @extend %courses-wrapper-360;
+    }
+
+    .title {
+        // @extend %title-wrapper-360;
+    }
+
+    .superman {
+        // @extend %superman-wrapper-360;
+    }
+
+    .course-author {
+        // @extend %course-author-wrapper-360;
+    }
+
+    .description {
+        // @extend %description-wrapper-360;
+    }
+
+    .block-one {
+        // @extend %block-one-wrapper-360;
+    }
+
+    .block-two {
+        // @extend %block-two-wrapper-360;
+    }
+
+    .training {
+        // @extend %training-wrapper-360;
+    }
+
+    // heading
+
+    // text
+
+    .cards {
+        // @extend %cards-wrapper-360;
+    }
+
+    // card-1
+    // card-2
+    // card-3
+    // card-4
+}

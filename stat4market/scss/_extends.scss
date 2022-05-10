@@ -72,28 +72,32 @@
     @extend %block;
     width: 1530px;
     height: 93px;
-    background-color: $color-element-wrapper;
+    // background-color: $color-element-wrapper;
+    background-color: red;
 }
 
 %header-wrapper-1280 {
     @extend %block;
     width: 1200px;
     height: 75px;
-    background-color: $color-element-wrapper;
+    // background-color: $color-element-wrapper;
+    background-color: red;
 }
 
 %header-wrapper-768 {
     @extend %block;
     width: 738px;
     height: 81px;
-    background-color: $color-element-wrapper;
+    // background-color: $color-element-wrapper;
+    background-color: red;
 }
 
 %header-wrapper-360 {
     @extend %block;
     width: 330px;
     height: 54px;
-    background-color: $color-element-wrapper;
+    // background-color: $color-element-wrapper;
+    background-color: red;
 }
 
 %courses-wrapper-1920 {
