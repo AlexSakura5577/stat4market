@@ -10,30 +10,37 @@
 //////////////////////////////////////////////////////////////////////////
 // fonts
 h1 {
+    @extend %font-family-style;
     @extend %ex1-H1_Lato_Bold_56-80;
 }
 
 h2 {
+    @extend %font-family-style;
     @extend %ex2-H2_Lato_Bold_48-64;
 }
 
 h3 {
+    @extend %font-family-style;
     @extend %ex3-H3_Lato_Semibold_42-55;
 }
 
 h4 {
+    @extend %font-family-style;
     @extend %ex4-H4_Lato_Semibold_35-45;
 }
 
 h5 {
+    @extend %font-family-style;
     @extend %ex5-H5_Lato_Semibold_24-150;
 }
 
 h6 {
+    @extend %font-family-style;
     @extend %ex6-H6_Lato_Semibold_18-25;
 }
 
 .regular-25 {
+    @extend %font-family-style;
     @extend %ex7-Text_Lato_Regular_25-160;
 }
 
