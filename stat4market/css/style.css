@@ -956,6 +956,7 @@ h6 {
     width: 1920px;
     height: 3083px;
     background-color: blue;
+    padding: 23px 0 0 0;
   }
   .content {
     width: 1768px;
@@ -1063,13 +1064,14 @@ h6 {
     background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin-left: 0px;
   }
   .crumbs {
     display: flex;
     width: 164px;
     height: 19px;
-    margin-bottom: -25px;
+    margin-bottom: -20px;
   }
   .crumbs_text {
     font-family: 'Lato';
@@ -1081,7 +1083,7 @@ h6 {
     margin-top: -2px;
   }
   .title-align {
-    margin-bottom: 28px;
+    margin-bottom: 0px;
   }
   .hyphen {
     display: block;
@@ -1095,6 +1097,7 @@ h6 {
     align-items: center;
     width: 256px;
     height: 55px;
+    margin-top: 25px;
   }
   .spent {
     margin-right: 25px;
@@ -1115,6 +1118,14 @@ h6 {
     font-size: 25px;
     line-height: 160%;
     color: rgba(51, 26, 47, 0.8);
+    margin-top: 0px;
+  }
+  .align2 {
+    display: block;
+  }
+  .align1 {
+    display: block;
+    margin-top: 15px;
   }
   .title-text_color {
     font-family: 'Lato', sans-serif;
@@ -1132,6 +1143,10 @@ h6 {
     color: rgba(51, 26, 47, 0.8);
     color: #CF51CE;
     margin-left: 3px;
+  }
+  .descr-text {
+    display: block;
+    width: 868;
   }
   .r {
     font-weight: 400;
@@ -1155,31 +1170,103 @@ h6 {
     width: 1320px;
     height: 1156px;
     background-color: yellow;
+    margin-top: 147px;
   }
   .description {
     width: 844px;
     height: 128px;
     background-color: darkgreen;
+    text-align: center;
+    margin-bottom: 85px;
+  }
+  .img-1 {
+    display: block;
+    width: 456px;
+    height: 469px;
+  }
+  .line-text-1-wrapper {
+    display: block;
+    width: 750px;
+    height: 240px;
+  }
+  .line-text-1 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 160%;
+    color: rgba(51, 26, 47, 0.8);
   }
   .block-one {
     width: 1286px;
     height: 469px;
     background-color: #ff009d;
+    display: flex;
   }
   .block-two {
     width: 1304px;
     height: 474px;
     background-color: #00ff1a;
+    display: flex;
+  }
+  .line-text-2-wrapper {
+    display: block;
+    width: 750px;
+  }
+  .line-text-2 {
+    display: block;
+    margin-bottom: 15px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 160%;
+    color: rgba(51, 26, 47, 0.8);
+  }
+  .img-2 {
+    display: block;
+    width: 474px;
+    height: 474px;
   }
   .training {
     width: 846px;
     height: 238px;
     background-color: #961ed2;
+    margin-top: 140px;
+  }
+  .color-4 {
+    color: #EA5DBB;
   }
   .cards {
     width: 1529px;
     height: 368px;
     background-color: lime;
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 368px;
+  }
+  .cards-icon {
+    display: flex;
+    width: 140px;
+    height: 140px;
+    background-color: antiquewhite;
+  }
+  .cards-title {
+    display: block;
+    width: 290px;
+    height: 108px;
+  }
+  .cards-text {
+    display: block;
+    width: 290px;
+    height: 145px;
   }
 }
 
