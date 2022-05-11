@@ -355,7 +355,7 @@ ul {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6, .regular-25 {
+.sign-in, h1, h2, h3, h4, h5, h6, .regular-25 {
   font-family: 'Lato', sans-serif;
   font-style: normal;
 }
@@ -389,14 +389,14 @@ h4 {
 }
 
 h5 {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 24px;
   line-height: 150%;
   color: #331A2F;
 }
 
 h6 {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   color: #331A2F;
@@ -438,14 +438,14 @@ h4 {
 }
 
 h5 {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
   line-height: 150%;
   color: #331A2F;
 }
 
 h6 {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #331A2F;
@@ -496,14 +496,14 @@ h4 {
 }
 
 h5 {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
   line-height: 150%;
   color: #331A2F;
 }
 
 h6 {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #331A2F;
@@ -554,14 +554,14 @@ h4 {
 }
 
 h5 {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   line-height: 150%;
   color: #331A2F;
 }
 
 h6 {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #331A2F;
@@ -588,7 +588,7 @@ h6 {
   margin: 0 auto;
 }
 
-.courses {
+.button, .courses {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -695,7 +695,7 @@ h6 {
 .title {
   width: 868px;
   height: 637px;
-  background-color: #ff00f7;
+  background-color: white;
 }
 
 .title {
@@ -719,7 +719,7 @@ h6 {
 .superman {
   width: 620px;
   height: 605px;
-  background-color: #c300ff;
+  background-color: white;
 }
 
 .superman {
@@ -884,6 +884,31 @@ h6 {
   background-color: lime;
 }
 
+.button {
+  width: 169px;
+  height: 45px;
+  background-color: #CF51CE;
+  border: none;
+  border-radius: 11px;
+}
+
+.arrow {
+  width: 23px;
+  height: 23px;
+  margin-right: 13px;
+}
+
+.sign-in {
+  width: 68px;
+  height: 36px;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-top: 2px;
+}
+
 @media only screen and (max-width: 3840px) {
   h1 {
     font-weight: 700;
@@ -910,13 +935,13 @@ h6 {
     color: #331A2F;
   }
   h5 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 24px;
     line-height: 150%;
     color: #331A2F;
   }
   h6 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
     line-height: 25px;
     color: #331A2F;
@@ -942,13 +967,17 @@ h6 {
     height: 93px;
     background-color: red;
     display: flex;
+    align-items: center;
+    padding: 0 auto;
   }
   .stat4market-wrapper {
     display: flex;
     justify-content: space-between;
     width: 241px;
     height: 71px;
+    margin-bottom: 22px;
     background-color: white;
+    margin-right: -20px;
   }
   .mask-group {
     width: 60px;
@@ -964,7 +993,8 @@ h6 {
     height: 0px;
     border: 1px solid rgba(51, 26, 47, 0.5);
     transform: rotate(90deg);
-    margin-top: 51px;
+    margin-top: 11px;
+    margin-right: -16px;
   }
   .service {
     width: 204px;
@@ -975,32 +1005,151 @@ h6 {
     font-size: 14px;
     line-height: 18px;
     color: rgba(51, 26, 47, 0.9);
+    margin-top: 11px;
+    margin-right: 30px;
   }
   .analytics {
     width: 145px;
     height: 36px;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
+    margin-top: 10px;
+    margin-right: -11px;
   }
   .polygon-1 {
     width: 13px;
     height: 12px;
+    margin-top: 20px;
+    margin-right: 48px;
+  }
+  .learn {
+    width: 111px;
+    height: 36px;
+    margin-top: 10px;
+    margin-right: 213px;
+  }
+  .number {
+    display: flex;
+    width: 232px;
+    height: 36px;
+    margin-top: 10px;
+  }
+  .phone {
+    width: 24px;
+    height: 24px;
+    margin-top: 5px;
+    margin-right: 11px;
+  }
+  .numb-phone {
+    display: block;
+    width: 203px;
+    height: 36px;
+  }
+  .button {
+    margin-right: -260px;
+    margin-top: -4px;
   }
   .courses {
     width: 1530px;
     height: 637px;
     background-color: #57e328;
+    margin-top: 66px;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
   }
   .title {
     width: 868px;
     height: 637px;
-    background-color: #ff00f7;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .crumbs {
+    display: flex;
+    width: 164px;
+    height: 19px;
+    margin-bottom: -25px;
+  }
+  .crumbs_text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(51, 26, 47, 0.5);
+    margin-top: -2px;
+  }
+  .title-align {
+    margin-bottom: 28px;
+  }
+  .hyphen {
+    display: block;
+    width: 10px;
+    height: 1px;
+    background: rgba(51, 26, 47, 0.5);
+    margin: 10px;
+  }
+  .price {
+    display: flex;
+    align-items: center;
+    width: 256px;
+    height: 55px;
+  }
+  .spent {
+    margin-right: 25px;
+  }
+  .price_text {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: rgba(51, 26, 47, 0.8);
+  }
+  .title-text {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 160%;
+    color: rgba(51, 26, 47, 0.8);
+  }
+  .title-text_color {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: #CF51CE;
+    margin-right: 10px;
+  }
+  .title-text_color2 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: rgba(51, 26, 47, 0.8);
+    color: #CF51CE;
+    margin-left: 3px;
+  }
+  .r {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    margin-left: 2px;
   }
   .superman {
     width: 620px;
     height: 605px;
-    background-color: #c300ff;
+    background-color: white;
+    background-image: url("/stat4market/stat4market/img/Bg_stars.png");
+    background-repeat: no-repeat;
+    background-position: bottom left 13px;
+  }
+  .superman-img {
+    margin-top: 0px;
+    margin-left: 44px;
   }
   .course-author {
     width: 1320px;
@@ -1060,13 +1209,13 @@ h6 {
     color: #331A2F;
   }
   h5 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     line-height: 150%;
     color: #331A2F;
   }
   h6 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     color: #331A2F;
@@ -1173,13 +1322,13 @@ h6 {
     color: #331A2F;
   }
   h5 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     line-height: 150%;
     color: #331A2F;
   }
   h6 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     color: #331A2F;
@@ -1286,13 +1435,13 @@ h6 {
     color: #331A2F;
   }
   h5 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
     line-height: 150%;
     color: #331A2F;
   }
   h6 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     color: #331A2F;

@@ -156,6 +156,8 @@ h6 {
     .header {
         @include header-wrapper-1920;
         display: flex;
+        align-items: center;
+        padding: 0 auto;
     }
 
     .stat4market-wrapper {
@@ -163,7 +165,9 @@ h6 {
         justify-content: space-between;
         width: 241px;
         height: 71px;
+        margin-bottom: 22px;
         background-color: rgb(255, 255, 255);
+        margin-right: -20px;
     }
 
     .mask-group {
@@ -182,8 +186,8 @@ h6 {
         height: 0px;
         border: 1px solid rgba(51, 26, 47, 0.5);
         transform: rotate(90deg);
-        margin-top: 51px;
-
+        margin-top: 11px;
+        margin-right: -16px;
     }
 
     .service {
@@ -195,34 +199,163 @@ h6 {
         font-size: 14px;
         line-height: 18px;
         color: rgba(51, 26, 47, 0.9);
+        margin-top: 11px;
+        margin-right: 30px;
     }
 
     .analytics {
         width: 145px;
         height: 36px;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 35px;
+        margin-top: 10px;
+        margin-right: -11px;
     }
 
     .polygon-1 {
         width: 13px;
         height: 12px;
+        margin-top: 20px;
+        margin-right: 48px;
     }
-.learn {
-    
-}
+
+    .learn {
+        width: 111px;
+        height: 36px;
+        margin-top: 10px;
+        margin-right: 213px;
+    }
+
+    .number {
+        display: flex;
+        width: 232px;
+        height: 36px;
+        margin-top: 10px;
+    }
+
+    .phone {
+        width: 24px;
+        height: 24px;
+        margin-top: 5px;
+        margin-right: 11px;
+    }
+
+    .numb-phone {
+        display: block;
+        width: 203px;
+        height: 36px;
+    }
+
+    .button {
+        margin-right: -260px;
+        margin-top: -4px;
+    }
+
     .courses {
         @include courses-wrapper-1920;
+        margin-top: 66px;
+        padding: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
     }
 
     .title {
         @include title-wrapper-1920;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .crumbs {
+        display: flex;
+        width: 164px;
+        height: 19px;
+        margin-bottom: -25px;
+    }
+
+    .crumbs_text {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(51, 26, 47, 0.5);
+        margin-top: -2px;
+    }
+    .title-align {
+        margin-bottom: 28px;
+    }
+
+    .hyphen {
+        display: block;
+        width: 10px;
+        height: 1px;
+        background: rgba(51, 26, 47, 0.5);
+        margin: 10px;
+    }
+
+    .price {
+        display: flex;
+        align-items: center;
+        width: 256px;
+        height: 55px;
+    }
+    .spent {
+        margin-right: 25px;
+    }
+
+    .price_text {
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: rgba(51, 26, 47, 0.8);
+    }
+
+    .title-text {
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        @include ex7-Text_Lato_Regular_25-160;
+    }
+
+    .title-text_color {
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        color: #CF51CE;
+        margin-right: 10px;
+    }
+
+    .title-text_color2 {
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: rgba(51, 26, 47, 0.8);
+        color: #CF51CE;
+        margin-left: 3px;
+    }
+    .r {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 29px;
+        margin-left: 2px;
     }
 
     .superman {
         @include superman-wrapper-1920;
+        background-image: url("/stat4market/stat4market/img/Bg_stars.png");
+        background-repeat: no-repeat;
+        background-position: bottom left 13px;
     }
+
+    .superman-img {
+        margin-top: 0px;
+        margin-left: 44px;
+    }
+
 
     .course-author {
         @include course-author-wrapper-1920;

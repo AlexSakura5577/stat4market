@@ -1,0 +1,26 @@
+.button {
+    @extend %flex;
+    width: 169px;
+    height: 45px;
+    background-color: $button-background-color;
+    border: none;
+    border-radius: 11px;
+}
+
+.arrow {
+    width: 23px;
+    height: 23px;
+    margin-right: 13px;
+}
+
+.sign-in {
+    width: 68px;
+    height: 36px;
+    @extend %font-family-style;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-top: 2px;
+}

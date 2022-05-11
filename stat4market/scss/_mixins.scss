@@ -109,7 +109,8 @@
 @mixin title-wrapper-1920 {
     width: 868px;
     height: 637px;
-    background-color: $color-title-wrapper;
+    // background-color: $color-title-wrapper;
+    background-color: white;
 }
 
 @mixin title-wrapper-1280 {
@@ -133,7 +134,8 @@
 @mixin superman-wrapper-1920 {
     width: 620px;
     height: 605px;
-    background-color: $color-superman-wrapper;
+    // background-color: $color-superman-wrapper;
+    background-color: rgb(255, 255, 255);
 }
 
 
